@@ -13,7 +13,7 @@ The dataset includes various financial details, but the target variable is wheth
 - **Target Variable (y):** `loan_status` – Whether the loan has a high risk of defaulting (1) or is healthy (0).
   - A value of **0** in the `loan_status` column means the loan is healthy (non-default).
   - A value of **1** means the loan has a high risk of defaulting.
-- **Features (X):** Various financial metrics of the loan applicants (e.g., credit score, income, employment status).
+- **Features (X):** Various financial metrics of the loan applicants (e.g., loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt).
 
 The task was to predict the likelihood of default (1) or non-default (0) based on these features. The model was trained using the **Logistic Regression** algorithm, a commonly used method for binary classification tasks.
 
