@@ -7,7 +7,7 @@ UCI Data Analyst Module 20 - Supervised Learning Challenge
 
 In this analysis, I applied a **Logistic Regression** model to predict whether loans would default or not based on financial data. The primary goal was to predict loan defaults using features from the dataset, which contains financial information about individuals seeking loans.
 
-The dataset includes various financial details, but the target variable is whether the loan is likely to default (1) or not default (0). The dataset consists of **19,384 samples**.
+The dataset includes various financial details, but the target variable is whether the loan is likely to default (1) or not default (0). The dataset consists of **~20,000 samples**.
 
 ### Variables:
 - **Target Variable (y):** `loan_status` – Whether the loan has a high risk of defaulting (1) or is healthy (0).
